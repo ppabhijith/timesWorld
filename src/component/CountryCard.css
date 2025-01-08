@@ -1,0 +1,17 @@
+.country__card {
+  border: 2px solid #3e3e3e;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
