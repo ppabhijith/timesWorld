@@ -112,7 +112,7 @@ function LoginForm() {
             >
               <p className="mt-2">Or Sign In With</p>
             </Col>
-            <Col className="justify-content-md-center" xs={4} md={12}>
+            <Col className="justify-content-md-center" xs={4}>
               <hr />
             </Col>
           </Row>
