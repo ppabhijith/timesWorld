@@ -64,7 +64,7 @@ function LoginForm() {
   return (
     <>
       <Row className="justify-content-md-start">
-        <Col xs={12} sm={12} lg={6}>
+        <Col xs={12} lg={6}>
           <Form onSubmit={handleSubmit}>
             <InputField
               label="Email or Username"
@@ -101,7 +101,7 @@ function LoginForm() {
             </Button>
           </Form>
           <Row className="align-items-center justify-content-start mb-3">
-            <Col className="justify-content-md-center" xs={4} md={12} lg={4}>
+            <Col className="justify-content-md-center" xs={4}>
               <hr />
             </Col>
             <Col
@@ -112,7 +112,7 @@ function LoginForm() {
             >
               <p className="mt-2">Or Sign In With</p>
             </Col>
-            <Col className="justify-content-md-center" xs={4} md={12} lg={4}>
+            <Col className="justify-content-md-center" xs={4} md={12}>
               <hr />
             </Col>
           </Row>
