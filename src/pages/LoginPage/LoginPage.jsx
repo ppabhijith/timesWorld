@@ -20,7 +20,7 @@ function Login() {
                   <LoginForm />
                 </aside>
               </Col>
-              <Col xs={12} md={2} className="d-none d-md-block">
+              <Col xs={12} md={2} className="d-none d-lg-block">
                 <aside className="login__img">
                   <img src={person} alt="person and key" />
                 </aside>
