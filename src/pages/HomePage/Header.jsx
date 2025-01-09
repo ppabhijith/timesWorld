@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { CONTINENTS } from "../../constants/continents";
 
 const Header = ({ fetchCountries }) => {
-  const [activeNav, setActiveNav] = useState(CONTINENTS[0] ?? "");
+  const [activeNav, setActiveNav] = useState(CONTINENTS[0]?.key ?? "");
 
   const onSelection = (region) => {
     setActiveNav(region);
