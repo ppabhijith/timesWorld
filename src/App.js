@@ -6,6 +6,7 @@ import store from "./redux/store";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import HomePage from "./pages/HomePage/HomePage";
 import PrivateRoute from "./component/PrivateRoute";
+import BirthdayPage from "./pages/BirthdayPage/BirthdayPage";
 
 function App() {
   return (
@@ -20,6 +21,12 @@ function App() {
               <PrivateRoute>
                 <HomePage />
               </PrivateRoute>
+            }
+          />
+          <Route
+            path="/birthday"
+            element={
+              <BirthdayPage />
             }
           />
         </Routes>
