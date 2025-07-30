@@ -24,7 +24,7 @@ function App() {
             }
           />
           <Route
-            path="/birthday"
+            path="/oonth"
             element={
               <BirthdayPage />
             }

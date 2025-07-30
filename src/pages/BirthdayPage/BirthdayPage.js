@@ -46,6 +46,19 @@ const BirthdayPage = () => {
             <Card.Title as="h1" className="mb-3" style={{ color: "#1976d2", fontWeight: 700, fontSize: "2rem" }}>
               Happy Birthday!
             </Card.Title>
+            <Card.Title
+              as="h1"
+              className="mb-3 breathing"
+              style={{
+                color: "#d72660",
+                fontWeight: 700,
+                fontSize: "2rem",
+                display: "inline-block",
+                marginBottom: "1rem",
+              }}
+            >
+              Arya PP
+            </Card.Title>
             <Card.Text className="mb-4" style={{ color: "#444", fontSize: "1.1rem" }}>
               Wishing you a day filled with joy, laughter, and unforgettable moments.<br />
               <span style={{ color: "#ff9800", fontWeight: 500 }}>Enjoy your special day!</span>
@@ -66,6 +79,14 @@ const BirthdayPage = () => {
             @keyframes bounce {
               0% { transform: translateY(0);}
               100% { transform: translateY(-10px);}
+            }
+            @keyframes breathing {
+              0% { transform: scale(1);}
+              50% { transform: scale(1.08);}
+              100% { transform: scale(1);}
+            }
+            .breathing {
+              animation: breathing 2.2s ease-in-out infinite;
             }
           `}
         </style>
